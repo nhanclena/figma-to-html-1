@@ -39,7 +39,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-/* =====header===== */
+/* =====header====== */
 .header {
   background: #fffcf4;
 }
@@ -102,20 +102,29 @@ a {
   position: relative;
   width: 48%;
 }
-.hero .content-block {
-  width: 52%;
+.media-block {
+  /* width: 570px;
+  height: 685px;
+  position: absolute;
+  left: -20px; */
 }
+
 .hero .media-block .img {
   width: 470px;
   height: 685px;
+  /* để k bị vỡ ảnh thì dùng object-fit: cover;  */
   object-fit: cover;
   border-radius: 20px;
+  /* position: absolute;
+  left: 140px; */
 }
 .hero .hero-summary {
-  width: 270px;
   padding: 24px;
+  width: 270px;
   position: absolute;
   bottom: 48px;
+  /* right: 835px; */
+  /* left: 135px; */
   right: 0;
   border-radius: 12px;
   background: #fff;
@@ -155,7 +164,7 @@ a {
   color: #171100;
   font-size: 1.8rem;
   font-weight: 600;
-  line-height: 1.65;
+  line-height: 1.67;
 }
 /* =====hero right===== */
 .hero .content-block {
@@ -183,7 +192,7 @@ a {
   margin-top: 38px;
 }
 .hero-cta {
-  min-width: 100px;
+  min-width: 180px;
   line-height: 64px;
   background-color: var(--primary-color);
 }
